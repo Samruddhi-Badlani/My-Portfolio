@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+  
 }
 
 
@@ -15,6 +16,8 @@
 }
 #content{
     flex: 70%;
+    display: flex;
+    flex-direction: column;
 }
 
 #my-name{
@@ -42,4 +45,49 @@
 .my-nav-items{
     padding: 10px;
     margin: 10px;
+}
+
+#head-my-name{
+    padding: 10px;
+    margin: 20px ;
+    margin-top: 60px ;
+}
+#home {
+    position: relative; 
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#home::before {    
+      content: "";
+      background-image: url('../images/pexels-karolina-grabowska-4862891.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.9;
+      z-index: -1;
+}
+#contact-icons-div{
+    margin: 30px;
+}
+.contact-icons-links{
+    padding: 10px;
+    margin: 4px;
+   
+    text-decoration: none;
+
+}
+
+.contact-icons{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 4px;
 }
