@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#nav-bar-div{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    flex:20%;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+#content{
+    flex: 70%;
+}
+
+#my-name{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#nav-list{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.my-icons{
+    padding:4px;
+    margin: 4px;
+}
+
+.my-links{
+    text-decoration: none;
+    color:white;
+}
+
+.my-nav-items{
+    padding: 10px;
+    margin: 10px;
+}
