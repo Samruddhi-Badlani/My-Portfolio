@@ -13,6 +13,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gowun+Batang&family=MonteCarlo&family=Source+Code+Pro:ital@1&display=swap');
         </style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/script.js"></script>
 
 </head>
 
@@ -49,7 +51,9 @@
             </div>
             <!-- About section -->
             <div id="about">
+                <h2 class="title-headings">About</h2>
                <div id="intro">
+                
                 Third  year student, pursuing Bachelor of Technology in Computer Science. I do competitive coding. I have interest in solving problems through coding and I explore various data structures for finding the best possible ways to solve the problem.
                 I focus on efficient learning and exploring new technologies to improve the productivity .
                </div>
@@ -69,12 +73,58 @@
                </div>
             </div>
             <div id="skills">
-                <h2>Skills</h2>
+                <h2 class="title-headings">Skills</h2>
+                <div class="mySkill">
+                    <div class="skillName">HTML</div>
+                    <div id="myProgress1">
+                        <div id="myBar1" style="text-align: center;color: white;font-size: 1.1rem;">90%</div>
+                      </div>
+                </div>
+                <div class="mySkill">
+                    <div class="skillName">CSS</div>
+                    <div id="myProgress2">
+                        <div id="myBar2" style="text-align: center;color: white;font-size: 1.1rem;">90%</div>
+                      </div>
+                </div>
+                <div class="mySkill">
+                    <div class="skillName">Core Java</div>
+                    <div id="myProgress3">
+                        <div id="myBar3" style="text-align: center;color: white;font-size: 1.1rem;">80%</div>
+                      </div>
+                </div>
+                <div class="mySkill">
+                    <div class="skillName">Python</div>
+                    <div id="myProgress4">
+                        <div id="myBar4" style="text-align: center;color: white;font-size: 1.1rem;">60%</div>
+                      </div>
+                </div>
+                <div class="mySkill">
+                    <div class="skillName">Javascript</div>
+                    <div id="myProgress5">
+                        <div id="myBar5" style="text-align: center;color: white;font-size: 1.1rem;">50%</div>
+                      </div>
+                </div>
+                
             </div>
 
 
         </div>
     </div>
+
+    <script>
+       $(window).scroll(function() {
+   var hT = $('#skills').offset().top,
+       hH = $('#skills').outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS >= (hT-wH)){
+       console.log('skills  on the view!');
+       move();
+   }
+});
+window.onload = move();
+    </script>
+  
 </body>
 
 </html>
