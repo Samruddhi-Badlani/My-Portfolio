@@ -18,6 +18,8 @@
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
+    
+
 }
 #content{
     flex: 70%;
@@ -167,51 +169,172 @@
 
 #myProgress1 {
     width: 30%;
-    background-color: grey;
+    background-color: rgb(187, 211, 214);
   }
   
   #myBar1 {
     width: 1%;
     height: 30px;
-    background-color: green;
+    background-color: rgba(0, 55, 128, 0.699);
   }
   #myProgress2 {
     width: 30%;
-    background-color: grey;
+    background-color: rgb(187, 211, 214);
   }
   
   #myBar2 {
     width: 1%;
     height: 30px;
-    background-color: green;
+    background-color: rgba(0, 55, 128, 0.699);
   }
   #myProgress3 {
     width: 30%;
-    background-color: grey;
+    background-color: rgb(187, 211, 214);
   }
   
   #myBar3 {
     width: 1%;
     height: 30px;
-    background-color: green;
+    background-color: rgba(0, 55, 128, 0.699);
   }
   #myProgress4 {
     width: 30%;
-    background-color: grey;
+    background-color: rgb(187, 211, 214);
   }
   
   #myBar4 {
     width: 1%;
     height: 30px;
-    background-color: green;
+    background-color: rgba(0, 55, 128, 0.699);
   }
   #myProgress5 {
     width: 30%;
-    background-color: grey;
+    background-color: rgb(187, 211, 214);
   }
   
   #myBar5 {
     width: 1%;
     height: 30px;
-    background-color: green;
+    background-color: rgba(0, 55, 128, 0.699);
   }
+  #myProgress6 {
+    width: 30%;
+    background-color: rgb(187, 211, 214);
+  }
+  
+  #myBar6 {
+    width: 1%;
+    height: 30px;
+    background-color: rgba(0, 55, 128, 0.699);
+  }
+  #myProgress7 {
+    width: 30%;
+    background-color: rgb(187, 211, 214);
+  }
+  
+  #myBar7 {
+    width: 1%;
+    height: 30px;
+    background-color: rgba(0, 55, 128, 0.699);
+  }
+  #myProgress8 {
+    width: 30%;
+    background-color: rgb(187, 211, 214);
+  }
+  
+  #myBar8 {
+    width: 1%;
+    height: 30px;
+    background-color: rgba(0, 55, 128, 0.699);
+  }
+
+
+  #projects{
+      display: flex;
+      flex-direction: column;
+  }
+
+  #project-section{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  .project-image{
+      margin: 22px;
+      padding: 4px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  #todo{
+      width: 300px;
+      height:200px;
+      background: url('../images/ToDo.png') no-repeat ; 
+      background-size: contain;
+      /* background-color: yellow; */
+      
+  }
+
+  #todo:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    /* background-color: black; */
+  }
+  #webapp{
+    width: 300px;
+    height:200px;
+    background: url('../images/webMap.png') no-repeat ; 
+    background-size: contain;
+    /* background-color: yellow; */
+    
+}
+
+  #webapp:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    /* background-color: black; */
+  }
+ 
+  #ballGame{
+    width: 300px;
+    height:200px;
+    background: url('../images/ballGame.png') no-repeat ; 
+    background-size: contain;
+    /* background-color: yellow; */
+    
+}
+
+  #ballGame:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    /* background-color: black; */
+  }
+  #quizGame{
+    width: 300px;
+    height:200px;
+    background: url('../images/quizGame.png') no-repeat ; 
+    background-size: contain;
+    /* background-color: yellow; */
+    
+}
+
+  #quizGame:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    /* background-color: black; */
+  }
+ 
+
+ 
+
+  
+
+  .name-of-project{
+    visibility: hidden;
+  }
+
+  .name-of-project:hover{
+
+  }
+  
